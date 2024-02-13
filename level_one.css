@@ -1,4 +1,7 @@
 .container {
   display: grid;
-  /* style the columns and rows here */
+  grid-template-rows: 100%;
+  grid-template-columns: 20% 20% 20% 20%;
+  width: 200px;
+  height: 100px;
 }
