@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, auto));
+  }
+  
+  #title {
+    grid-column: -1/1;
+  }
+  
+  .friend {
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  
+  .sibling {
+    grid-row: span 1;
+    grid-column: span 2;
+  }
+  
+  .aunt {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+  
+  .grandparent {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
