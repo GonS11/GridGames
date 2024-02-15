@@ -10,20 +10,18 @@
 
 #sidebar {
   writing-mode: vertical-rl;
-  grid-row: 2/5;
+  grid-area: 2/1/5/1;
 }
 
 #title {
-  grid-column: 2/6;
+  grid-area: 2/2/2/6;
 }
 
 
 #content {
-  grid-row: 3/5;
-  grid-column: 2/6;
-
+  grid-area: 3/2/5/6;
 }
 
 #footer {
-  grid-column: 1/6;
+  grid-area: 4/1/5/6;
 }
